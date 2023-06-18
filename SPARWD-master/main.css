@@ -1,0 +1,213 @@
+body, html {
+    height: 100%;
+    width:100%;
+    margin: 0;
+    font-family: 'Tenali Ramakrishna', sans-serif;
+    line-height: 160%;
+    color: #666;
+    text-align: center;
+}
+.bottom{
+    text-align: left;
+    font-size: 2vw;
+}
+
+
+
+.jeden{
+    background: url(foto/top.jpg);
+    min-height: 100%;
+}
+.dwa{
+    background: url(foto/atmosfera.jpg);
+    min-height: 60%;
+}
+
+.dwa{
+    background: url(foto/atmosfera.jpg);
+    min-height: 60%;
+}
+.trzy{
+    background: url(foto/planowanie.jpeg);
+    min-height: 60%;
+}
+
+.cztery{
+    background: url(foto/dobrakultury.jpg);
+    min-height: 60%;
+}
+
+#cztery{
+    opacity: 0.25;
+}
+
+p{
+    font-size: 2vw;
+}
+h1{
+    font-size: 4vw;
+    padding-top: 20px;
+}
+h3{
+    font-size: 3vw;
+}
+
+.jeden, .dwa ,.trzy,.cztery{
+    position: relative;
+    opacity: .75;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.two-col {
+    float: left;
+    width: 42%;
+    padding: 0 4%;
+    text-align: left;
+}
+section {
+    overflow: auto;
+    padding: 50px 60px;
+}
+.img-fluid{
+    padding-top: 25px;
+}
+.saareema {
+    position: absolute;
+    margin: 0;
+    color: #fff;
+    font-size: 8vw;
+    top: 43%;
+    width: 100%;
+    text-transform: uppercase;
+    letter-spacing:2vw;
+    text-shadow: 0 0 10px #000;
+}
+
+.accommodation img{
+    width: 100%;
+    height: auto;
+  /*padding-top: 1.8vw;*/
+    margin-top: 1.8vw;
+    border-radius: 20px;
+}
+
+
+@media (max-width: 768px) {
+    section {
+        overflow: auto;
+        padding: 5vw 8vw;
+    }
+    .saareema {
+        position: absolute;
+        margin: 0;
+        color: #fff;
+        font-size: 14vw;
+        top: 43%;
+        width: 100%;
+        text-transform: uppercase;
+        letter-spacing:3vw;
+        text-shadow: 0 0 10px #000;
+    }
+    p{        font-size: 4vw;    }
+    h1{        font-size: 8vw;    }
+    h3{        font-size: 6vw;
+        padding-top: 5vw;
+    }
+}
+@media (max-width:400px){
+    p{        font-size: 6vw;
+    text-align: center}
+    h1{        font-size: 12vw;
+        text-align: center}
+    h3{        font-size: 8vw;
+        padding-top: 5vw;
+        text-align: center
+    }
+
+}
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    border: 2px solid #4CAF50;
+}
+
+.button1:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.testimonials{
+    padding: 10px 0;
+    background: #f1f1f1;
+    color: #434343;
+    text-align: center;
+}
+.inner{
+    /*max-width: 1200px;*/
+    margin: auto;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.border{
+    /* width: 160px;*/
+    height: 5px;
+    background: #6ab04c;
+    margin: 26px auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.col{
+    /*flex: 33.33%;
+    max-width: 33.33%;*/
+    box-sizing: border-box;
+    padding: 15px;
+}
+.testimonial{
+    background: #fff;
+    padding: 30px;
+}
+
+.name{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+.stars{
+    color: #6ab04c;
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:960px) {
+    .col{
+        flex: 100%;
+        max-width: 80%;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .col{
+        flex: 100%;
+        max-width: 100%;
+    }
+}
